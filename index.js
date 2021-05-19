@@ -42,6 +42,5 @@ bot.on("message", async message => {
 		responses(message, bot);
 });
 
-
 const botToken = require('./bottoken.json');
 bot.login(botToken.token);
