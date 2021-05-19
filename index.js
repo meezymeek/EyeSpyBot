@@ -14,7 +14,7 @@ bot.on("ready", async () =>{
 	console.log(`${bot.user.username} is online!`);
 
 	//set game -------------------------------------------------------------------
-	bot.user.setActivity("looking at your pics :eyes:");
+	bot.user.setActivity("status message");
 
 });
 
@@ -42,4 +42,6 @@ bot.on("message", async message => {
 		responses(message, bot);
 });
 
-bot.login(process.env.ODQ0NjU3MTY4NzQ1NzU4NzMw.YKVmSg.qF9hkQjks1gANsmpKvUhXnrkIws);
+
+const botToken = require('./bottoken.json');
+bot.login(botToken.token);
