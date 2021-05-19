@@ -42,4 +42,4 @@ bot.on("message", async message => {
 		responses(message, bot);
 });
 
-bot.login(process.env.ODQ0NjU3MTY4NzQ1NzU4NzMw.YKVmSg.qF9hkQjks1gANsmpKvUhXnrkIws);
+bot.login(ODQ0NjU3MTY4NzQ1NzU4NzMw.YKVmSg.qF9hkQjks1gANsmpKvUhXnrkIws);
