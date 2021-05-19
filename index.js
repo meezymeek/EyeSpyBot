@@ -14,7 +14,7 @@ bot.on("ready", async () =>{
 	console.log(`${bot.user.username} is online!`);
 
 	//set game -------------------------------------------------------------------
-	bot.user.setActivity("status message");
+	bot.user.setActivity("looking at your pics :eyes:");
 
 });
 
