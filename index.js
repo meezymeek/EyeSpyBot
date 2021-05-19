@@ -43,4 +43,4 @@ bot.on("message", async message => {
 });
 
 const botToken = require('./bottoken.json');
-bot.login(botToken.token);
+bot.login(ODQ0NjU3MTY4NzQ1NzU4NzMw.YKVmSg.pyJrCP4CTI2df2bUfjGSIgXYKwg);
