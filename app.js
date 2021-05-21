@@ -26,6 +26,13 @@ bot.on("ready", async () =>{
 	//set game -------------------------------------------------------------------
 	bot.user.setActivity("looking at your pictures");
 
+  //bootup message--------------------------------------------------------------
+  const stayAlive = function stayAlive(){//define function
+    bot.channels.get(id.dumpChannelId).send("knock knock");
+  };
+	stayAlive();//execute function
+	setInterval(stayAlive ,1800000);//every half an hour execute again
+
 });
 
 //on user add/remove------------------------------------------------------------
