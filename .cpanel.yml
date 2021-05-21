@@ -2,4 +2,14 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/gearedup/repositories/EyeSpyBot
-    - -R EyeSpyBot $DEPLOYPATH
+    - /bin/cp -R .git $DEPLOYPATH
+    - /bin/cp -R JSON $DEPLOYPATH
+    - /bin/cp -R public $DEPLOYPATH
+    - /bin/cp -R tmp $DEPLOYPATH
+    - /bin/cp -R utils $DEPLOYPATH
+    - /bin/cp -R .cpanel.yml $DEPLOYPATH
+    - /bin/cp -R .gitattributes $DEPLOYPATH
+    - /bin/cp -R .gitignore $DEPLOYPATH
+    - /bin/cp -R app.js $DEPLOYPATH
+    - /bin/cp -R package-lock.json $DEPLOYPATH
+    - /bin/cp -R README.md $DEPLOYPATH
