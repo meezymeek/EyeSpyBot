@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/gearedup/repositories/EyeSpyBot
+    - export DEPLOYPATH=/home/gearedup/public_html
     - /bin/cp -r * $DEPLOYPATH
