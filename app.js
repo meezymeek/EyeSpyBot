@@ -24,7 +24,7 @@ bot.on("ready", async () =>{
 	console.log(`${bot.user.username} is online!`);
 
 	//set game -------------------------------------------------------------------
-	bot.user.setActivity("looking at your pictures");
+	bot.user.setActivity("Parsing Server");
 
   //bootup message--------------------------------------------------------------
   const stayAlive = function stayAlive(){//define function
