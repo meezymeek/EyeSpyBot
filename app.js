@@ -28,10 +28,10 @@ bot.on("ready", async () =>{
 
   //bootup message--------------------------------------------------------------
   const stayAlive = function stayAlive(){//define function
-    bot.channels.get(id.dumpChannelId).send("knock knock");
+    bot.channels.get(id.dumpChannelId).send("I am still alive");
   };
 	stayAlive();//execute function
-	setInterval(stayAlive ,1800000);//every half an hour execute again
+	setInterval(stayAlive ,3600000);//every hour execute again
 
 });
 
