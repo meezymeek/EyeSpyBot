@@ -28,7 +28,7 @@ bot.on("ready", async () =>{
 
   //bootup message--------------------------------------------------------------
   const stayAlive = function stayAlive(){//define function
-    bot.channels.get(id.dumpChannelId).send("I am still alive");
+    console.log("I am still alive");
   };
 	stayAlive();//execute function
 	setInterval(stayAlive ,3600000);//every hour execute again

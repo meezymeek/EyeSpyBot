@@ -1,5 +1,1 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/gearedup/repositories/EyeSpyBot
-    - /bin/cp -r * $DEPLOYPATH
+/usr/bin/flock -n /tmp/.lock ${HOME}/nodejs/bin/node ${HOME}/public_html/EyeSpyBot/app.js
